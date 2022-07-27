@@ -1,6 +1,11 @@
 pipeline { 
   agent any 
-  
+  tools{
+
+  nodejs 'NodeJS-18.7.0'
+
+  }
+
   stages { 
     stage('clone repository') {
       steps { 
