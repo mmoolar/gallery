@@ -16,7 +16,7 @@ pipeline {
     }
      stage('Build the project') {
       steps { 
-        sh 'echo "here we will Build'
+        sh 'echo "here we will Build" '
       }
     }
 stage('Install Dependencies') {
